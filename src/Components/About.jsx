@@ -9,7 +9,7 @@ const About = () => {
       <div className="sec1">
         <div className="img">
           <img
-            src="https://source.unsplash.com/random?laptop/coding"
+            src="https://source.unsplash.com/random?coding"
             alt="PicCoding"
           />
         </div>
