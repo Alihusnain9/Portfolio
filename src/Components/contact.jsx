@@ -40,8 +40,8 @@ const contact = () => {
 
   return (
     <>
-      <div className="py-3 bg-white" id="Contact">
-        <h1 className="text-center mb-4 fs-1  text-white">
+      <div className="py-4 bg-white" id="Contact">
+        <h1 className="text-center mb-4 text-white" style={{fontSize:'30px'}}>
           Let's discuss our next project
         </h1>
 

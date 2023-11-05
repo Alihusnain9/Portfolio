@@ -13,8 +13,8 @@ function App() {
       <Home />
       <About />
       <Work />
-      <Faqs />
       <Contact />
+      <Faqs />
       <Footer />
     </>
   );
