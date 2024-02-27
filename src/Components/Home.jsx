@@ -16,16 +16,14 @@ const Home = () => {
             I'm <span style={{ color: "#54b54a" }}>Ali Husnain</span>
           </h1>
           <h4>
-            A Frontend{" "}
+            A{" "}
             <span color="#54b54a" style={{ color: "#54b54a" }}>
-              Web-Developer
+              Website-Developer
             </span>
           </h4>
 
           <p>
-            I am a frontend React Developer based on pakistan. I specialize in
-            building stunning, useful and attractive web applications that are
-            customized every client's particular requirement.
+          I am a Full Stack website developer. I specialize in building stunning, user-friendly, and visually appealing web applications tailored to each client's specific needs.
           </p>
           <div className="icons gap-4">
             <a
@@ -48,7 +46,7 @@ const Home = () => {
             </a>
           </div>
           <br />
-          <a href="https://wa.me/+923137179575">
+          <a href="https://wa.me/+923137179575" style={{ width: "max-content" }}>
             <button
               style={{ width: "max-content" }}
               className="button btn text-white border w-fit-content"

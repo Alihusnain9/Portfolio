@@ -133,7 +133,7 @@ h1 {
 
 .sec2 .cut {
   position: relative;
-  opacity: 0.3;
+  opacity: 0.4;
   color: black;
 }
 
@@ -148,15 +148,30 @@ h1 {
   border-radius: 100px 0 100px 0;
 }
 
-.imgs img {
-  align-items: center;
+.imgs a {
   width: 90%;
   height: 500px;
+  max-width: 350px;
+  border-radius: 50px 0 50px 0;
+  margin: auto;
+}
+
+.imgs img {
+  align-items: center;
   cursor: pointer;
   object-fit: cover;
-  margin: auto;
   border-radius: 50px 0 50px 0;
 }
+
+.imgs .hover-item1 {
+  opacity: 0;
+  transition: all .4s ease-in-out;
+}
+
+.imgs .hover-item1:hover {
+  opacity: 1;
+}
+
 
 /* *************** CONTACT ME **************** */
 
@@ -237,17 +252,23 @@ h1 {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 635px) {
   .imgs {
     grid-template-columns: repeat(1, minmax(260px, 1fr));
   }
 
-  .imgs img {
-    height: 400px;
+  .imgs a {
+    height: 440px;
   }
 
   .sec1 .img {
     height: 260px;
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .imgs a {
+    height: 400px;
   }
 }

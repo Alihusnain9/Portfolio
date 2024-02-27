@@ -16,15 +16,14 @@ const About = () => {
       </div>
       <div className="sec2  px-sm-1">
         <h1>About Me</h1>
-        <p>
-          I am a freelance React developer. I have experience working with small
-          and medium-sized businesses. A passion for creating eye-catching
-          designs and captivating user experiences. With a strong foundation in
-          HTML, CSS, and JavaScript. I bring life to web applications through
-          the power of React. I am dedicated to delivering high-quality code
-          that exceeds expectations.
+        <p style={{fontSize:'1.1rem'}}>
+          I am a Full-Stack (Next/React + Strapi) Web developer with expertise in
+          React.js. I can create responsive, beautiful, and functional websites
+          that are easy for users to navigate. I translate your vision into
+          user-centric, conversion-driven experiences with sleek UI/UX &
+          optimized backend architecture.
           <br />
-          Let's build together.
+          Let's build your digital roadmap!
         </p>
         <h2>Skills</h2>
         <h5 className="mb-2" style={{ color: "#363434" }}>
@@ -38,6 +37,9 @@ const About = () => {
           <p>Bootstrap</p>
           <p>React Ecoseytem and libraries</p>
           <p>Redux</p>
+          <p>Tailwind.css</p>
+          <p>Next.js</p>
+          <p>Material & Chakra UI</p>
           <p className="cut">Node.js</p>
           <p className="cut">Express.js</p>
           <p className="cut">MongoDB</p>

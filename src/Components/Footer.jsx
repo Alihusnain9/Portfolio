@@ -5,11 +5,13 @@ const Footer = () => {
   return (
     <footer
       className="text-center text-dark"
-      style={{ backgroundColor: "#ededed", borderRadius: "30px 30px 0 0" }}
+      style={{ backgroundColor: "#ededed", 
+      borderRadius: "30px 30px 0 0" 
+    }}
     >
       <div className="container p-1 px-3 py-3 gap-3 gap-sm-0  d-flex align-items-center justify-content-between flex-column flex-sm-row">
         <span className="text-dark text-start">
-          Copyright © 2023 Personal Portfolio
+          Copyright © 2024 Personal Portfolio
         </span>
 
         <section className="mb-1">

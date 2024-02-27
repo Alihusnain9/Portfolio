@@ -64,7 +64,7 @@ const contact = () => {
                 style={{ backgroundColor: "green", borderRadius: "50px" }}
               />
               <h5>Click to make a call</h5>
-              <p className="p-0">+923137179575</p>
+              <p className="p-0">+92 313 7179575</p>
             </a>
 
             <a
