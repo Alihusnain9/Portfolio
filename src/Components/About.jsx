@@ -40,6 +40,7 @@ const About = () => {
           <p>Tailwind.css</p>
           <p>Next.js</p>
           <p>Material & Chakra UI</p>
+          <p>Strapi(CMS for backend)</p>
           <p className="cut">Node.js</p>
           <p className="cut">Express.js</p>
           <p className="cut">MongoDB</p>
